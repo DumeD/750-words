@@ -1,0 +1,49 @@
+
+$main-color: #F5A623;
+$button-color: #6FEE5B;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.page-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  .title {
+    font-size: 64px;
+    color: $main-color;
+    text-align: center;
+  }
+  #counter {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+  }
+  textarea {
+    width: 800px;
+    height: 30em;
+    margin: 0 auto;
+    font-size: 15px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  #button {
+    background-color: $button-color;
+    color: white;
+    padding: 12px 70px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    position:relative;
+    left: 42%;
+    box-shadow: 0 4px #999;
+    margin-top: 10px;
+    &:active {
+      background-color: #3e8e41;
+      box-shadow: 0 6px #666;
+      transform: translateY(4px);
+    }
+  }
+}

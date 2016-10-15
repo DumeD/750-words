@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+.page-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  position: relative; }
+  .page-wrapper .title {
+    font-size: 64px;
+    color: #F5A623;
+    text-align: center; }
+  .page-wrapper #counter {
+    position: absolute;
+    right: 0px;
+    top: 80px; }
+  .page-wrapper textarea {
+    width: 800px;
+    height: 30em;
+    margin: 0 auto;
+    font-size: 15px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+  .page-wrapper #button {
+    background-color: #6FEE5B;
+    color: white;
+    padding: 12px 70px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 42%;
+    box-shadow: 0 4px #999;
+    margin-top: 10px; }
+    .page-wrapper #button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 6px #666;
+      transform: translateY(4px); }
